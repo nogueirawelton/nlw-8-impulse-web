@@ -33,7 +33,7 @@ export const ScreenshotButton = ({ screenshot, onScreenshotTook }: ScreenshotBut
   }
 
   return (
-    <button type="button" className="p-2 bg-zinc-300 hover:bg-zinc-400 rounded-md border-transparent hover:bg-zinc-2 00 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-  focus:ring-brand-500 transition-colors" onClick={handleTakeScreenshot}>
+    <button type="button" className="p-2 bg-zinc-300 hover:bg-[#CACACA] dark:bg-zinc-800 dark:hover:bg-zinc-700 rounded-md border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-  focus:ring-brand-500 transition-colors" onClick={handleTakeScreenshot}>
     
     {isTakingScreenshot ? <Loading /> : <Camera className="w-6 h-6 text-zinc-800"/>}
   </button>
