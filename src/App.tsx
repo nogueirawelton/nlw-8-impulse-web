@@ -5,8 +5,8 @@ import { Main } from "./components/Main";
 export const App = () => {
   return (
     <>
-      <Header />
-      <Main />
+      {/* <Header />
+      <Main /> */ }
       <Widget />
     </>
   )
