@@ -44,7 +44,7 @@ export const WidgetForm = () => {
   }
 
 return (
-    <div className="bg-zinc-900 p-4 relative rounded-2xl mb-4 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
+    <div className="bg-zinc-100  p-4 relative rounded-2xl mb-4 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
       {feedbackSent ? (
         <FeedbackSuccessStep onFeedbackRestartRequested={handleRestartFeedback} />
       ) : (
@@ -56,7 +56,7 @@ return (
           )}
         </>
       )}
-      <footer className="text-xs text-neutral-400">
+      <footer className="text-xs text-zinc-500">
         <span>
           <span>Feedback Widget - </span>
           <a className="underline underline-offset-1" href="https://github.com/NogueiraWelton" target="_blank">Welton Nogueira</a>
