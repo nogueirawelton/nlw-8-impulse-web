@@ -17,7 +17,7 @@ export const FeedbackSuccessStep = ({ onFeedbackRestartRequested }: FeedbackSucc
         <path d="M29.78 6.36202C28.624 5.61102 27.076 5.94002 26.322 7.09802L15.436 23.877L10.407 19.227C9.39303 18.289 7.81103 18.352 6.87403 19.365C5.93703 20.379 5.99903 21.961 7.01303 22.898L14.222 29.564C14.702 30.009 15.312 30.229 15.918 30.229C16.591 30.229 17.452 29.947 18.017 29.09C18.349 28.584 30.517 9.82002 30.517 9.82002C31.268 8.66102 30.938 7.11302 29.78 6.36202Z" fill="white"/>
       </svg>
       <span className="text-xl mt-2">Agradecemos o Feedback!</span>
-      <button onClick={(onFeedbackRestartRequested)} className="py-2 px-6 mt-6 bg-zinc-300 dark:bg-zinc-800 rounded-md border-transparent text-sm leading-6 hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors">Quero enviar outro</button>
+      <button onClick={(onFeedbackRestartRequested)} className="py-2 px-6 mt-6 bg-zinc-300 dark:bg-zinc-800 rounded-md border-transparent text-sm leading-6 dark:hover:bg-zinc-700 hover:bg-[#CACACA] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors">Quero enviar outro</button>
 
       </div>
     </>
