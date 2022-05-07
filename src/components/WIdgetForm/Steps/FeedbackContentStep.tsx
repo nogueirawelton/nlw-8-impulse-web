@@ -24,7 +24,7 @@ export const FeedbackContentStep = ({ feedbackType, onFeedbackStartRequested, on
     event.preventDefault();
 
     setIsSendingFeedback(true);
-    await api.post('feedbacks', {
+    await api.post('/feedbacks', {
       type: feedbackType,
       comment,
       screenshot
